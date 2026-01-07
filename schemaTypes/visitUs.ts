@@ -2,6 +2,9 @@ export default {
     name: 'visitUs',
     title: 'Visit Us',
     type: 'document',
+    options: {
+        singleton: true,
+    },
     fields: [
         {
             name: 'title',
