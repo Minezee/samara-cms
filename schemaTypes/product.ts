@@ -25,7 +25,7 @@ export default {
             title: 'Product Image',
             type: 'image',
             options: {
-                hotspot: true // bisa crop image
+                hotspot: true
             }
         },
         {
@@ -40,30 +40,6 @@ export default {
             type: 'url',
             validation: (Rule: Rule) => Rule.required(),
             description: 'Link produk di Shopee'
-        },
-        {
-            name: 'shortDescription',
-            title: 'Short Description',
-            type: 'text',
-            rows: 3
-        },
-        {
-            name: 'category',
-            title: 'Category',
-            type: 'string',
-            options: {
-                list: [
-                    { title: 'Featured', value: 'featured' },
-                    { title: 'Collections', value: 'collections' },
-                    { title: 'Reserve', value: 'reserve' }
-                ]
-            }
-        },
-        {
-            name: 'isFeatured',
-            title: 'Show in Featured Products?',
-            type: 'boolean',
-            initialValue: false
         },
         {
             name: 'displayOrder',

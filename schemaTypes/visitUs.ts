@@ -2,9 +2,6 @@ export default {
     name: 'visitUs',
     title: 'Visit Us',
     type: 'document',
-    options: {
-        singleton: true,
-    },
     fields: [
         {
             name: 'title',
@@ -13,9 +10,19 @@ export default {
             initialValue: 'VISIT US'
         },
         {
+            name: 'description',
+            title: 'Description',
+            type: 'text'
+        },
+        {
             name: 'address',
             title: 'Address',
             type: 'text'
+        },
+        {
+            name: 'whatsapp',
+            title: 'WhatsApp Number',
+            type: 'string'
         },
         {
             name: 'phone',
@@ -26,11 +33,6 @@ export default {
             name: 'email',
             title: 'Email',
             type: 'string'
-        },
-        {
-            name: 'mapImage',
-            title: 'Map Image',
-            type: 'image'
         },
         {
             name: 'coordinates',
