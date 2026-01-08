@@ -18,6 +18,11 @@ export default {
             type: 'text'
         },
         {
+            name: 'additionalInfo',
+            title: 'Additional Information',
+            type: 'text'
+        },
+        {
             name: 'address',
             title: 'Address',
             type: 'text'
@@ -38,9 +43,10 @@ export default {
             type: 'string'
         },
         {
-            name: 'coordinates',
-            title: 'Location Coordinates',
-            type: 'url'
+            name: 'mapUrl',
+            title: 'Map URL',
+            type: 'url',
+            description: 'Link to Google Maps location, z describe zoom level can remove if not needed'
         }
     ]
 }

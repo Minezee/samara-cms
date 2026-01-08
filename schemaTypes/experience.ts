@@ -7,7 +7,6 @@ export default {
             name: 'title',
             title: 'Title',
             type: 'string',
-            description: 'Misal: COLLECTIONS, BOUTIQUES & EXPERIENCES'
         },
         {
             name: 'description',
@@ -29,13 +28,12 @@ export default {
             name: 'ctaLink',
             title: 'Button Link',
             type: 'url',
-            description: 'Link ke section lain atau external'
         },
         {
             name: 'order',
             title: 'Display Order',
             type: 'number',
-            description: '1-6 untuk urutan tampilan'
+            description: '1-6 For display order'
         }
     ],
     orderings: [

@@ -32,14 +32,13 @@ export default {
             name: 'price',
             title: 'Price',
             type: 'number',
-            description: 'Harga dalam Rupiah'
+            description: 'Price in Indonesian Rupiah',
         },
         {
             name: 'shopeeLink',
             title: 'Shopee Link',
             type: 'url',
             validation: (Rule: Rule) => Rule.required(),
-            description: 'Link produk di Shopee'
         },
         {
             name: 'displayOrder',

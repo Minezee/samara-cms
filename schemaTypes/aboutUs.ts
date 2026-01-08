@@ -10,13 +10,11 @@ export default {
             name: 'title',
             title: 'Title',
             type: 'string',
-            description: 'FROM INDONESIAN CACAO TO...'
         },
         {
             name: 'subtitle',
             title: 'Subtitle',
             type: 'text',
-            description: 'Deskripsi panjang di bawah title'
         },
         {
             name: 'ctaText',
