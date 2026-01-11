@@ -1,5 +1,7 @@
 import aboutUs from './aboutUs'
+import difference from './difference'
 import experience from './experience'
+import footer from './footer'
 import hero from './hero'
 import product from './product'
 import productSection from './productSection'
@@ -12,4 +14,6 @@ export const schemaTypes = [
     productSection,
     product,
     visitUs,
+    difference,
+    footer,
 ]
