@@ -2,9 +2,6 @@ export default {
     name: 'hero',
     title: 'Hero Section',
     type: 'document',
-    options: {
-        singleton: true,
-    },
     fields: [
         {
             name: 'image',
@@ -21,5 +18,21 @@ export default {
             title: 'Subtitle',
             type: 'text',
         },
+        {
+            name: 'ctaText',
+            title: 'CTA Button Text',
+            type: 'string',
+        },
+        {
+            name: 'ctaLink',
+            title: 'CTA Link',
+            type: 'url',
+        },
+        {
+            name: 'order',
+            title: 'Display Order',
+            type: 'number',
+            description: 'For banner display order'
+        }
     ]
 }
