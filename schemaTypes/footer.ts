@@ -4,6 +4,9 @@ export default {
     name: 'footer',
     title: 'Footer',
     type: 'document',
+    options: {
+        singleton: true,
+    },
     fields: [
         {
             name: 'brand',

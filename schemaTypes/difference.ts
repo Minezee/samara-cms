@@ -4,6 +4,9 @@ export default {
     name: 'difference',
     title: 'Difference Section',
     type: 'document',
+    options: {
+        singleton: true,
+    },
     fields: [
         {
             name: 'title',
