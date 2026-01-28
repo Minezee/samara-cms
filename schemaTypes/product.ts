@@ -32,7 +32,11 @@ export default {
             name: 'price',
             title: 'Price',
             type: 'number',
-            description: 'Price in Indonesian Rupiah',
+        },
+        {
+            name: 'description',
+            title: 'Description',
+            type: 'text',
         },
         {
             name: 'shopeeLink',
